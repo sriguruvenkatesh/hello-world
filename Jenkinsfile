@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                echo "${env.color}"
+                 echo env.color
                 }
             }
         }
